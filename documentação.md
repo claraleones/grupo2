@@ -53,10 +53,13 @@ O diagrama de classes do sistema de locação de quadras esportivas representa a
 O diagrama de casos de uso ilustra as interações principais entre os atores (Locador, Locatário e Sistema) e o sistema de locação de quadras esportivas, destacando as funcionalidades disponíveis e planejadas:
 
 -- Atores:
+
 - Locador: Usuário que cadastra e gerencia quadras esportivas, consultando reservas feitas por locatários.
 - Locatário: Usuário que busca quadras disponíveis, realiza reservas e pode cancelá-las.
 - Sistema: Responsável por validações automáticas, como autenticação, validação de dados e verificação de disponibilidade.
+  
 -- Casos de Uso:
+
 - Fazer Login: Ambos os atores (Locador e Locatário) autenticam-se no sistema usando número (CPF/telefone) e senha. Este caso de uso se estende a "Validar Credenciais", onde o Sistema verifica as credenciais no banco de dados via UsuarioRepositorio.
 - Cadastrar Usuário: Locadores e Locatários podem se cadastrar, fornecendo número, nome, senha, telefone e, para locatários, informações temporárias de quadra (localização, tipo, horários). -- Este caso se estende a "Validar Dados", onde o Sistema verifica se os campos obrigatórios estão preenchidos.
 - Cadastrar Quadra (em desenvolvimento): Permite ao Locador cadastrar uma quadra esportiva, incluindo localização e tipo. Esta funcionalidade está planejada, mas não implementada (ausência da classe Quadra e do formulário NovaQuadra.fxml).
@@ -131,6 +134,8 @@ Mesmo que as funcionalidades de reserva ainda não tenham sido totalmente implem
 - Clique em "Sair" para voltar ao login.
 
 ## 10. Conclusão
+
+O sistema de locação de quadras esportivas, desenvolvido em Java com o padrão MVC, ORMLite para persistência em SQLite e JavaFX para a interface gráfica, implementa com sucesso as funcionalidades de cadastro e autenticação de usuários (Locador e Locatário), além da visualização de quadras com dados fictícios. A aplicação demonstra a aplicação dos princípios de Programação Orientada a Objetos, como herança, encapsulamento, polimorfismo e abstração, e estabelece uma base sólida para futuras expansões. A estrutura modular e os diagramas UML fornecem uma visão clara do projeto, garantindo organização e facilitando a manutenção. Apesar de algumas funcionalidades, como gerenciamento de quadras e reservas, ainda estarem em desenvolvimento, o sistema atual atende aos requisitos iniciais de autenticação e gerenciamento de usuários, representando um avanço significativo no objetivo de facilitar a locação de quadras esportivas.
 
 ## 11. Proximos passos
   
