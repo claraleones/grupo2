@@ -52,18 +52,18 @@ O diagrama de classes do sistema de locação de quadras esportivas representa a
 
 O diagrama de casos de uso ilustra as interações principais entre os atores (Locador, Locatário e Sistema) e o sistema de locação de quadras esportivas, destacando as funcionalidades disponíveis e planejadas:
 
--Atores:
-Locador: Usuário que cadastra e gerencia quadras esportivas, consultando reservas feitas por locatários.
-Locatário: Usuário que busca quadras disponíveis, realiza reservas e pode cancelá-las.
-Sistema: Responsável por validações automáticas, como autenticação, validação de dados e verificação de disponibilidade.
--Casos de Uso:
-Fazer Login: Ambos os atores (Locador e Locatário) autenticam-se no sistema usando número (CPF/telefone) e senha. Este caso de uso se estende a "Validar Credenciais", onde o Sistema verifica as credenciais no banco de dados via UsuarioRepositorio.
-Cadastrar Usuário: Locadores e Locatários podem se cadastrar, fornecendo número, nome, senha, telefone e, para locatários, informações temporárias de quadra (localização, tipo, horários). Este caso se estende a "Validar Dados", onde o Sistema verifica se os campos obrigatórios estão preenchidos.
-Cadastrar Quadra (em desenvolvimento): Permite ao Locador cadastrar uma quadra esportiva, incluindo localização e tipo. Esta funcionalidade está planejada, mas não implementada (ausência da classe Quadra e do formulário NovaQuadra.fxml).
-Consultar Reservas (em desenvolvimento): Permite ao Locador visualizar as reservas feitas em suas quadras. Está planejado, mas depende da implementação das classes Reserva e Horario.
-Visualizar Quadras Disponíveis: Locatários podem ver uma lista de quadras disponíveis, atualmente implementada com dados fictícios no DashboardLocatarioController.
-Realizar Reserva (em desenvolvimento): Locatários selecionam uma quadra, data e horário para reservar. Este caso se estende a "Verificar Disponibilidade", onde o Sistema valida conflitos de horário. Ainda não implementado.
-Cancelar Reserva (em desenvolvimento): Locatários podem cancelar reservas existentes. Depende da implementação da classe Reserva.
+-- Atores:
+- Locador: Usuário que cadastra e gerencia quadras esportivas, consultando reservas feitas por locatários.
+- Locatário: Usuário que busca quadras disponíveis, realiza reservas e pode cancelá-las.
+- Sistema: Responsável por validações automáticas, como autenticação, validação de dados e verificação de disponibilidade.
+-- Casos de Uso:
+- Fazer Login: Ambos os atores (Locador e Locatário) autenticam-se no sistema usando número (CPF/telefone) e senha. Este caso de uso se estende a "Validar Credenciais", onde o Sistema verifica as credenciais no banco de dados via UsuarioRepositorio.
+- Cadastrar Usuário: Locadores e Locatários podem se cadastrar, fornecendo número, nome, senha, telefone e, para locatários, informações temporárias de quadra (localização, tipo, horários). -- Este caso se estende a "Validar Dados", onde o Sistema verifica se os campos obrigatórios estão preenchidos.
+- Cadastrar Quadra (em desenvolvimento): Permite ao Locador cadastrar uma quadra esportiva, incluindo localização e tipo. Esta funcionalidade está planejada, mas não implementada (ausência da classe Quadra e do formulário NovaQuadra.fxml).
+- Consultar Reservas (em desenvolvimento): Permite ao Locador visualizar as reservas feitas em suas quadras. Está planejado, mas depende da implementação das classes Reserva e Horario.
+- Visualizar Quadras Disponíveis: Locatários podem ver uma lista de quadras disponíveis, atualmente implementada com dados fictícios no DashboardLocatarioController.
+- Realizar Reserva (em desenvolvimento): Locatários selecionam uma quadra, data e horário para reservar. Este caso se estende a "Verificar Disponibilidade", onde o Sistema valida conflitos de horário. Ainda não implementado.
+- Cancelar Reserva (em desenvolvimento): Locatários podem cancelar reservas existentes. Depende da implementação da classe Reserva.
 
 ### 6.3 Diagrama De Sequencia
 
@@ -82,7 +82,7 @@ O diagrama de sequência detalha o fluxo da operação de reserva. Ele inclui o 
 
 ## 8. Testes e Processo de Desenvolvimento
 
-  O processo de desenvolvimento do sistema seguiu etapas bem definidas, mesmo com escopo parcial:
+O processo de desenvolvimento do sistema seguiu etapas bem definidas, mesmo com escopo parcial:
   
 ### 8.1 Modelagem
   
