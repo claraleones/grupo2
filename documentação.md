@@ -42,148 +42,43 @@ Este projeto implementa um sistema de gerenciamento de aluguel de quadras esport
 ## 6. Diagramas UML
 
 ### 6.1 Diagrama de Classes
-![Diagrama UML](https://www.plantuml.com/plantuml/png/ZLMnSjim3Dtv5JmlLPjeoAfBSyavkNRmaCPfTrY2RVOeKY4X3qapzmlw1Htw8VwnYX9CIP6JInQ500Yyzm2Obvx0KLrgGOeqoci56mSbo0BbN8Ftw6KgbyeJTiOlwD3a2aeqP8DXONFO_zl_RG_VQYWSU24qhaas0KvjjYGBvJ0dPOqG7-JdOtzolhXQBc-MnxqY3r3aTr-3KrO-2IbFL959PKX8cHfROYQNv9JPX3DXKzwQaGrBK7fey6YsC3Ia8UiQ7j7DeG1FpYOVCxcpgWWEg0aDgHnSCafrAaU9cXihQpM22PSsI3SXE2IAXKuyqZqZJ5v2FLHy5imvo5jOrt9EqHJeCBT3sBcfVaveRBXBZXioPB9JlWQj7i5TRPg4NIVRY8NoT7w77jqEBa9etWbnI9CSHKUn9sbUhKTGnkKuyxHK59uDoKDRBkDnEfLRwqAHJ7xj_caIS6Y7qkIe8TvstJV6z3s9mED4FxrBikZZ2HmvMQJeJEhkcqas36ArylIs41mIGN14Txxe2NI6oIgGgaRJKOLnkRKk29V9mjOhZS7k2QZsmqZT3LfscBXEc0ZeMldA6hLIMXLGO580DGclWV00aNlJaW3YdY_REecnExiSbHofIxS3c84p0uriEVU4ReyYdBOjoNjLOkiR8uv3q4ycEhLM-PJRU8bNsZxKs8_Ng9qhTEmnlOj9DR202RKG0x2U4gSxIebzFRCTQElkBO5-gudCAtUgHwiF6vhrotegtx5WKO7fWhtmMhDMhWGtiBC2tFtuwyVc7v7DiLxVmePVbx4qh4Aym5h5y5wj4iaMTgABmsucuuqfuBajAsTtO0W7g9zVVxRkRXPN-z_xFw--NEBmQ9t_IjEuMoDZx8iGx9UpivbiFBDFiyEYPxAotjTAnEX1K1ocJ399mPRM6uBE1faShj5Xwb4UYulBbabZ1H-EvgdG4Peyf8cQ3WCvTwneA8HUeYdgKly7)
+![Diagrama UML](https://www.plantuml.com/plantuml/png/nLRDRXj73BxhAOYS7CGoqAjW674S64sX6cda-ixTeQLfPuVR-N6C_ZnCqKFHGqzz1BrOTtQvFnhleeSSUj8C-P7pyOTSlVK1NOYLMVaVjQtHOGKLMouFZYk2u2AjLgL1x-5x7z5fXbzM06kjDg1jI4SRAtAyWLrmskvRIMCwlNko1vm8tkmfV51dhtiNRtnx5v-l1N7N-aseqT0FujDN1nkkABCGOUAKetU9LmuNgN3k3Nxhix3b4XMxBWk133sofIosUn7dhaT5RfWz42JHyq-iJGCn-cSiaR-Bg1nEbK7NCz83k-JJlzU-PgkVIFil9osMsvnExc86CGaXTtUlwta_9weKPcxvzSiWSnUpc3uvCzLuZm4BzDGLGydj3ayRl6HhgGoQxGQ-KKLvCznt75r9mcyK9rfBmDAmfxC91ncyJrIpru67rb38ejeqFFbIBkVmmGRQaxiIaBHi1vBBB2YCleRh29G4zXavKyLcI4zRWT8H1ZgBmgdd_Neu9L0HVOdk8xlPEJx5OWnaWsxm6UmSP3m7guBP4Dfa5MirIoFf51bQqXb6TUkuccoY0T3hhur9fTjg7_fqNus5ka65FZXkgXeS6qEo9bmnbE0JAitlOWXiHJFaFTU5vt0dKT_JSxZLP5GlvufUIcLGPpIxBbiVqVlFxDIWgj7IXC33EtuMYt5Yy-VBudwoOMwuAhWnk-mgSINc_PHrjjUEC2cAO2L5sAHYaeMnipTvjqlojTL19qPqrXRhW5OP6hoT2cr99iccO-mF1QDJKeYyGgOmmoXjiI0ZmXJgIqL81-nIa4B4mj23fiz99wsrvJqgplUokCfMaaXFFb7da2yuYMw7-YJQwn3RGfqAJTml9a3A_MKfA1jhr9QSP46Qvtz8m1q_IIccyJRFQvk5k3nHonFotwqfDDe7PtgJErPY2fU_hjSWJPWBfJ2hcNtFw_KLlFhgrR1mLpEx9c5cAEQfM83b8p9liLfkf0ouiXm8dDuV0l3Z93o0w-1q4GDxUF5FfYsxd84QxCmV5_37FnW2LJMxu-z9sI8LFL45dXnK_AHL8wtH8SGAeUq9WixjnOgiWiGkupXVts-FVmLEthhloZaeCfH-n-z5-xny7e1yIFHgWvP-mCRm72hqO1jXWz9LRQWY6v86B4Dv_4VfFGEcELwcjboTnkbjjALcYqOhLEH14M2_5e00qpP8k9-wMGKl14iwi57a_FAxI-MMbn-qxzuv_fbyAXhUY1v1jK4-wZ8S_our-ul4bLqLJLis64Vtul6vCcsEJZ8qvVMsESRA_0i0)
 
-O diagrama de classes representa a estrutura estática do sistema, destacando atributos e relações entre entidades:
--	Usuario: classe base comum a todos os usuários.
--	Locador e Locatario: especializações de Usuario.
--	Quadra: representa os campos esportivos cadastrados por locadores.
--	Reserva: conecta locatários a quadras em horários específicos.
+O diagrama de classes do sistema de locação de quadras esportivas representa a estrutura estática do projeto, detalhando as classes implementadas e suas relações. Ele ilustra a herança entre Usuario, Locador e Locatario, a composição entre UsuarioRepositorio e Database, e as interações dos controladores com o modelo, refletindo o padrão MVC. O diagrama destaca atributos e métodos principais, com notas indicando que os atributos localizacaoQuadra, tipoQuadra e horariosDisponiveis em Locatario são temporários e que alguns métodos de UsuarioRepositorio estão planejados, mas não implementados, fornecendo uma visão clara da organização e funcionamento do sistema no estado atual.
 
 ### 6.2 Diagramas de caso de uso 
 
-![Diagrama UML](https://www.plantuml.com/plantuml/png/RP0zJWCn48LxdsAqVOhyX185HNGqW7A0mPui8tazn3DEWpWCP-5YE8iHoqBvdhxtnduxDSnMXkWY7GrC87F_R10uapUMv1nwamntuZ58dYZxUCyiq9n7LgC1dRlaCFMHeBk9fIyK8H2S2eQCsi6h0oXA7hK2jsSspE0b7IERN43yodI02eVzLQKFt_GU0whb6hWVsngpROqpHgfPnYSsRZdb7aWfdojscbQjVbL9qXAjCe7rHH8_SUI0WHgy_lVk_Eh6lRcs3ImMr-EVVjPhrlQljNHjyQPNCxsUwOtRKGfbY9y0)
+![Diagrama UML](https://www.plantuml.com/plantuml/png/bP51JWCn34NtEOMNi2W7G5LLgOKL6ufWRoPkQp69AoSPeTw60t2ANemPCQhQEY1rDv7_-_wUFqyPDPVGklJ1SOUA0O94QROgWI1h8UUmoQBm90rwqPDNZxACxnTEcG8wDyfWCfd1pIFkQT1kEDww8s9dvzG2FQQigF2Qok6h9mnSbrGzdWjwnSknn5JQt8zNb4WxJ6R56wU2BU-F5WcMd7OI3zyTiTMlQ5IFZfNCiQ7sLE3EVWBS3Ljx4uyA2oLFiM7iDy4zJAVqcIdwsSpLRZz3b-Z5G2RTBqBAQsvGnzFudGSFJnUu6-iT3gbdD8fZ53FxSwTpKJA1ycQRGTQr4W4U0dXA53jfEmuKipYA7WRIyhRbAnrigTVnjlF_-Nd_LKBx0m00)
 
-Representa as principais ações realizadas pelos usuários do sistema:
--	O Locador pode cadastrar quadras e consultar reservas feitas nelas;
--	O Locatário pode visualizar quadras, realizar reservas e cancelá-las;
--	O Sistema realiza validações e controla a disponibilidade.
+O diagrama de casos de uso ilustra as interações principais entre os atores (Locador, Locatário e Sistema) e o sistema de locação de quadras esportivas, destacando as funcionalidades disponíveis e planejadas:
+
+-Atores:
+Locador: Usuário que cadastra e gerencia quadras esportivas, consultando reservas feitas por locatários.
+Locatário: Usuário que busca quadras disponíveis, realiza reservas e pode cancelá-las.
+Sistema: Responsável por validações automáticas, como autenticação, validação de dados e verificação de disponibilidade.
+-Casos de Uso:
+Fazer Login: Ambos os atores (Locador e Locatário) autenticam-se no sistema usando número (CPF/telefone) e senha. Este caso de uso se estende a "Validar Credenciais", onde o Sistema verifica as credenciais no banco de dados via UsuarioRepositorio.
+Cadastrar Usuário: Locadores e Locatários podem se cadastrar, fornecendo número, nome, senha, telefone e, para locatários, informações temporárias de quadra (localização, tipo, horários). Este caso se estende a "Validar Dados", onde o Sistema verifica se os campos obrigatórios estão preenchidos.
+Cadastrar Quadra (em desenvolvimento): Permite ao Locador cadastrar uma quadra esportiva, incluindo localização e tipo. Esta funcionalidade está planejada, mas não implementada (ausência da classe Quadra e do formulário NovaQuadra.fxml).
+Consultar Reservas (em desenvolvimento): Permite ao Locador visualizar as reservas feitas em suas quadras. Está planejado, mas depende da implementação das classes Reserva e Horario.
+Visualizar Quadras Disponíveis: Locatários podem ver uma lista de quadras disponíveis, atualmente implementada com dados fictícios no DashboardLocatarioController.
+Realizar Reserva (em desenvolvimento): Locatários selecionam uma quadra, data e horário para reservar. Este caso se estende a "Verificar Disponibilidade", onde o Sistema valida conflitos de horário. Ainda não implementado.
+Cancelar Reserva (em desenvolvimento): Locatários podem cancelar reservas existentes. Depende da implementação da classe Reserva.
 
 ### 6.3 Diagrama De Sequencia
 
-![Diagrama UML](https://www.plantuml.com/plantuml/png/VP8nJiGm44NxdC9ba98BRB7Q0Y4A6k04i_RixaY99ypO4U8sY8AAK-HYX2GEMGdJZjxx_b_9GGD8Y6rJW0qive4jE9QY6wzagGCVp3Dfm1QsjuaBmxiG5yNYc7gVKBCp3P_9br7Z15L6qL_WfaX0FSB9sndB_aJIml0vVB1nEDkPPEM6B0MGnmXEG6z9E_RK8scvUM2_wJXQnwWsesou-de3QO2VEY-pPjolbrc2htGa-Kl8hS46BR5FtKfo-H4z2ft8WjopJ3UTyEo0IyAM8iDNhdgMJQMlW-_W3UK95QM7Cfdvte9dqY2mAkIMtCgGcuURQgtmpoAP0zO_na7cGoGmFJs21_Gkjiqt)
+![Diagrama UML](https://www.plantuml.com/plantuml/png/dLMnRXin3Dtr5KIc173ItKCHm6dH0bcQeDtf4nqBrOakgNFxEq67Jls1hlwnIdVMrP5Zkyd6anwV7laetRL6bDYrtkXN5rOes4BBWPkbS4iGfIDZi8aiSCiD9h1Zas3HDMw58SBPz9OVN9XnYCBUavm1AbHhLSODwdBEA7QahDAF06gkpzhb_JjQiRh8AUmPzfVtD4ISerAFBXyLvbE7Lh17366rVqTAiXu0GrmZFh1WaRIDZHcBWiktTQUcy34e2K7O_6b960YKmX9DXSkf-pLE0Rj88Gb0EGzT9fWC-HTc7vqvIkLJ-4BY5YaH6Y5BeN7er9Hjk3nmtXsb8208QUSZMdxsdEVgpAFrPe5UoQ2FCFjtAgmtZzvPL0EmN_RHuPZ234Ne0S4Mb8636OLnN9x2knzkJl2jTrl1EbrnsFnUayjYHjnf6VVagN4SSCir0Pj0GB1asJmcy0bPX_oTTzgW3DEeDxqybzMTNnY0KnOd-jwbKfy1E6dmhTEKOAda73ZcL4FAe1IQrxloGYDIl73I8iXmGL_PzqOSolQEd-zQEicEPlXn0wexPWVdvYxFkQN_CU9cd4L_yAIjm2a4-WwLsXsTPUkfk7lqwx5DjQAHkVHpyslpatUf3iWk-xc15byxFVTTGwhyagcff8AbiJRoIayU71Vg9-V4A9886meMq4TZ0aS2SG_B2Bmugj00lEz2_p0Cpk_80ch1fZ2isQzTIo7oLSBFFAfI-GDDnePI-Q50oEMvTkKf9w55lUgrPLd6NAUmQ_rV)
 
-Mostra o fluxo da operação de reserva:
--	O usuário faz login;
--	Solicita as quadras disponíveis;
--	Seleciona data e horário;
--	O sistema verifica conflitos;
--	Se estiver disponível, cria a reserva;
--	Confirmação é enviada ao locatário.
+O diagrama de sequência detalha o fluxo da operação de reserva. Ele inclui o Locatário, as interfaces (LoginController, DashboardLocatarioController), o UsuarioRepositorio e o banco de dados (Database). O diagrama reflete o fluxo planejado, com validação de login, busca de quadras, seleção de horário e confirmação de reserva. 
 
 ## 7. Implementação das Classes
 
-### 7.1 Classe Usuario
-@DatabaseTable(tableName = "usuarios")
-public class Usuario {
-    @DatabaseField(generatedId = true)
-    private int id;
-
-    @DatabaseField(canBeNull = false)
-    private String numero;
-
-    @DatabaseField(canBeNull = false)
-    private String nome;
-
-    @DatabaseField(canBeNull = false)
-    private String senha;
-
-    public Usuario() {}
-
-    public Usuario(String numero, String nome, String senha) {
-        this.numero = numero;
-        this.nome = nome;
-        this.senha = senha;
-    }
-
-    // Getters e Setters...
-}
-
-Classe genérica para representar qualquer usuário. Serve de base para Locador e Locatario.
-
-### 7.2 Classe Locador
-@DatabaseTable(tableName = "locadores")
-public class Locador extends Usuario {
-    @DatabaseField
-    private String telefone;
-
-    public Locador() {}
-
-    public Locador(String numero, String nome, String senha, String telefone) {
-        super(numero, nome, senha);
-        this.telefone = telefone;
-    }
-
-    // Getters e Setters...
-}
-
-Especialização de Usuario, representa quem cadastra quadras.
-
-### 7.3 Classe Database
-public class Database {
-    private String databaseName;
-    private JdbcConnectionSource connection;
-
-    public Database(String databaseName) {
-        this.databaseName = databaseName;
-    }
-
-    public JdbcConnectionSource getConnection() throws SQLException {
-        if (connection == null) {
-            connection = new JdbcConnectionSource("jdbc:sqlite:" + databaseName);
-        }
-        return connection;
-    }
-
-    public void close() {
-        if (connection != null) {
-            connection.close();
-            connection = null;
-        }
-    }
-}
-
-Gerencia a conexão com o banco SQLite usando ORMLite.
-
-### 7.4 Classe UsuarioRepositorio
-public class UsuarioRepositorio {
-    private static Dao<Usuario, Integer> daoUsuario;
-    private static Dao<Locador, Integer> daoLocador;
-    private static Dao<Locatario, Integer> daoLocatario;
-
-    public static void setDatabase(Database db) {
-        // cria DAOs e tabelas
-    }
-
-    public Usuario create(Usuario usuario) {
-        // cria usuário no banco
-    }
-
-    public void update(Usuario usuario) {
-        // atualiza dados
-    }
-
-    public void delete(Usuario usuario) {
-        // remove do banco
-    }
-
-    public Usuario loadFromId(int id) {
-        // busca por ID
-    }
-
-    public List<Usuario> loadAll() {
-        // carrega todos os usuários
-    }
-}
-
-Repositório responsável por salvar, buscar, atualizar e deletar usuários usando a ORMLite.
-
-### 7.5 Relações entre as Classes
-  
--	Database fornece a conexão usada por UsuarioRepositorio;
--	UsuarioRepositorio identifica o tipo do usuário e delega operações ao DAO correto (usuário, locador ou locatário);
--	Locador e Locatario são tratados como Usuario, permitindo polimorfismo no repositório;
--	Futuramente, Locador se relacionará diretamente com Quadra, e Locatario com Reserva.
+- Usuario: Classe base que representa usuários, mapeada para a tabela usuarios com atributos id, numero, nome e senha.
+- Locador: Herda de Usuario, mapeada para locadores, com atributo adicional telefone.
+- Locatario: Herda de Usuario, mapeada para locatarios, com atributos adicionais telefone, localizacaoQuadra, tipoQuadra e horariosDisponiveis (temporários, a serem movidos para Quadra e Horario).
+- Database: Gerencia a conexão com o banco SQLite usando ORMLite.
+- UsuarioRepositorio: Realiza operações CRUD (atualmente implementa create, buscarPorNumero, autenticar; métodos update, delete, loadFromId, loadAll estão planejados).
+- Controladores: CadastroController, DashboardLocadorController, DashboardLocatarioController e LoginController gerenciam a lógica de interação com a interface JavaFX.
 
 ## 8. Testes e Processo de Desenvolvimento
 
